@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_statemanagement_flutter/counter_screen.dart';
+import 'package:getx_statemanagement_flutter/example_three.dart';
 
 
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const GetMaterialApp(
-      home:  CounterScreen(),
+      home:  ExampleThree(),
     );
   }
 }
